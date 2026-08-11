@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Glide Beyond Obvious | Drone Thermal Inspection & Aerial Survey</title>
+<meta name="description" content="Glide Beyond Obvious provides professional drone thermal inspection, solar PV inspection, roof inspection, aerial survey and mapping services in Cagayan de Oro and Mindanao.">
+<style>
+:root{--green:#16863b;--green2:#0b5d2a;--lime:#8ee33b;--ink:#071719;--muted:#5d6b6e;--white:#fff;--soft:#f5f8f5;--orange:#ff6a21;--line:#dfe7e1;}
+*{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Inter,Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;line-height:1.55} a{color:inherit;text-decoration:none}
+.wrap{max-width:1180px;margin:auto;padding:0 24px}
+header{position:absolute;z-index:10;top:0;left:0;right:0;color:#fff;background:linear-gradient(180deg,rgba(0,0,0,.72),transparent);}
+.nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.5px} .brand img{width:54px;height:54px;object-fit:contain;border-radius:12px}
+.brand span{font-size:20px;line-height:1.05} .brand small{display:block;font-size:9px;letter-spacing:2px;color:#a8e56b;margin-top:4px}
+nav{display:flex;gap:25px;align-items:center;font-size:12px;font-weight:800;text-transform:uppercase} nav a:hover{color:#8ee33b}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:6px;padding:13px 20px;font-size:12px;font-weight:900;text-transform:uppercase;letter-spacing:.3px;border:1px solid transparent;cursor:pointer}
+.btn.green{background:var(--green);color:#fff} .btn.green:hover{background:#0d6e30} .btn.outline{border-color:#fff;color:#fff;background:rgba(0,0,0,.2)} .btn.dark{background:var(--ink);color:#fff}
+.hero{min-height:690px;position:relative;display:flex;align-items:center;color:#fff;overflow:hidden;background:#06251f}
+.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(2,17,19,.94) 0%,rgba(2,17,19,.76) 45%,rgba(2,17,19,.2) 100%),url('images/hero-aerial.jpg') center/cover no-repeat;}
+.hero .wrap{position:relative;z-index:2;width:100%;padding-top:100px}
+.heroGrid{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}
+.kicker{color:#9bea55;font-weight:900;text-transform:uppercase;letter-spacing:2px;font-size:12px}
+h1{font-size:clamp(44px,6vw,72px);line-height:.98;margin:14px 0 20px;letter-spacing:-2px} h1 b{color:#76d83b}
+.hero p{max-width:560px;font-size:18px;color:#e9f0ec} .actions{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0}
+.trust{display:flex;gap:25px;margin-top:30px;flex-wrap:wrap} .trust div{font-size:11px;max-width:130px;color:#dce8e0} .trust strong{display:block;color:#fff;font-size:12px;margin-bottom:3px}
+.compare{background:rgba(4,17,18,.8);border:1px solid rgba(255,255,255,.2);padding:14px;border-radius:14px;box-shadow:0 20px 60px rgba(0,0,0,.35)} .compare img{width:100%;height:380px;object-fit:cover;border-radius:9px;display:block} .compareCap{display:flex;justify-content:space-between;font-size:10px;font-weight:900;text-transform:uppercase;margin-top:9px;color:#fff}
+.section{padding:82px 0} .section.soft{background:var(--soft)} .section.dark{background:#061d1c;color:#fff}
+.center{text-align:center} .eyebrow{font-weight:900;color:var(--green);text-transform:uppercase;letter-spacing:1.5px;font-size:12px} h2{font-size:38px;line-height:1.1;margin:10px 0 14px;letter-spacing:-1px} .lead{max-width:700px;margin:0 auto;color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:40px} .card{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden;box-shadow:0 8px 30px rgba(7,23,25,.05)} .card img{width:100%;height:190px;object-fit:cover} .cardBody{padding:20px} .card h3{margin:0 0 7px;font-size:17px} .card p{font-size:13px;color:var(--muted);margin:0}
+.split{display:grid;grid-template-columns:.9fr 1.1fr;gap:45px;align-items:center} .checks{display:grid;gap:18px;margin-top:28px} .check{display:flex;gap:13px} .icon{flex:0 0 36px;height:36px;border-radius:10px;background:#e6f7e7;color:var(--green);display:grid;place-items:center;font-weight:900} .check strong{display:block} .check span{font-size:13px;color:var(--muted)}
+.dual{display:grid;grid-template-columns:1fr 1fr;border-radius:14px;overflow:hidden;background:#071719;box-shadow:0 15px 50px rgba(0,0,0,.18)} .dual img{width:100%;height:330px;object-fit:cover} .dual label{display:block;text-align:center;color:#fff;padding:9px;font-size:11px;font-weight:900;background:#071719}
+.industries{display:grid;grid-template-columns:repeat(8,1fr);gap:12px;margin-top:40px} .industry{text-align:center;padding:14px 5px;border:1px solid rgba(255,255,255,.14);border-radius:10px;font-size:10px;font-weight:900;text-transform:uppercase;color:#dbe9df} .industry b{display:block;font-size:22px;color:#8ee33b;margin-bottom:7px}
+.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:42px} .step{text-align:center;position:relative} .step .num{margin:auto;width:40px;height:40px;border:2px solid var(--green);border-radius:50%;display:grid;place-items:center;font-weight:900;color:var(--green);background:#fff} .step h4{margin:10px 0 5px} .step p{font-size:11px;color:var(--muted);margin:0}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:38px} .gallery a{position:relative;overflow:hidden;border-radius:10px;height:190px;background:#ddd} .gallery img{width:100%;height:100%;object-fit:cover;transition:.3s} .gallery a:hover img{transform:scale(1.05)} .tag{position:absolute;left:10px;bottom:10px;background:rgba(0,0,0,.7);color:#fff;padding:6px 9px;border-radius:5px;font-size:9px;font-weight:900}
+.cta{background:linear-gradient(90deg,rgba(3,24,24,.95),rgba(3,24,24,.6)),url('images/aerial-media.jpg') center/cover;color:#fff;padding:70px 0} .ctaGrid{display:flex;justify-content:space-between;gap:30px;align-items:center} .cta h2{margin:0;max-width:550px} .cta h2 b{color:#76d83b}
+footer{background:#031111;color:#cbd7d1;padding:48px 0 25px} .footGrid{display:grid;grid-template-columns:1.3fr 1fr 1fr 1.3fr;gap:35px} footer h3{color:#fff;font-size:13px;text-transform:uppercase;letter-spacing:1px} footer p,footer li{font-size:12px;color:#aebdb6} footer ul{list-style:none;padding:0;margin:0;display:grid;gap:7px} .copyright{border-top:1px solid #19302e;margin-top:30px;padding-top:20px;text-align:center;font-size:10px;color:#7e9289}
+.mobileMenu{display:none}
+@media(max-width:850px){nav{display:none}.mobileMenu{display:block;color:#fff;font-size:24px}.heroGrid,.split{grid-template-columns:1fr}.hero{min-height:auto;padding-bottom:60px}.compare img{height:280px}.cards{grid-template-columns:1fr 1fr}.industries{grid-template-columns:repeat(4,1fr)}.steps{grid-template-columns:1fr 1fr}.gallery{grid-template-columns:1fr 1fr}.footGrid{grid-template-columns:1fr 1fr}.ctaGrid{flex-direction:column;align-items:flex-start}}
+@media(max-width:560px){.cards,.gallery,.footGrid{grid-template-columns:1fr}.industries{grid-template-columns:repeat(2,1fr)}h1{font-size:46px}.hero p{font-size:16px}}
+</style>
+<!--
+GLIDE BEYOND OBVIOUS — EASY-TO-UPDATE SITE
+IMAGE FILES ARE IN /images. Replace a file while keeping the same filename to update the site.
+Main editable images: logo.png, hero-aerial.jpg, thermal-inspection.jpg, thermal-solar.jpg, roof-aerial.jpg, construction-aerial.jpg, solar-rgb.jpg, aerial-media.jpg, drone.jpg
+For text/contact updates, search this file for the existing phone number, email, or address.
+-->
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#home"><img src="images/logo.png" alt="Glide Beyond Obvious logo"><span>GLIDE<small>BEYOND OBVIOUS</small></span></a>
+<nav><a href="#home">Home</a><a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#industries">Industries</a><a href="#about">About</a><a href="#contact">Contact</a><a class="btn green" href="mailto:glidebeyondobvious@gmail.com?subject=Drone%20Service%20Inquiry">Request a Quote</a></nav>
+<div class="mobileMenu">☰</div>
+</div></header>
+
+<section id="home" class="hero"><div class="wrap"><div class="heroGrid">
+<div>
+<div class="kicker">Professional Drone Services • Cagayan de Oro</div>
+<h1>SEE WHAT<br><b>OTHERS CAN'T.</b></h1>
+<p>Professional drone thermal inspection and aerial survey services—combining engineering perspective with advanced aerial imaging to turn hard-to-see conditions into actionable insights.</p>
+<div class="actions"><a class="btn green" href="mailto:glidebeyondobvious@gmail.com?subject=Request%20a%20Quote">Request a Quote ↗</a><a class="btn outline" href="#services">View Our Services ↓</a></div>
+<div class="trust"><div><strong>✓ Safety First</strong>Reduce risk and improve site access.</div><div><strong>◎ Accurate Data</strong>High-resolution imagery and analysis.</div><div><strong>⚡ Fast Turnaround</strong>Timely reports for better decisions.</div><div><strong>⚙ Engineering Insight</strong>Electrical engineering perspective.</div></div>
+</div>
+<div class="compare"><img src="images/thermal-inspection.jpg" alt="Drone thermal inspection image"><div class="compareCap"><span>Thermal View</span><span>DJI Mavic 3 Thermal</span></div></div>
+</div></div></section>
+
+<section id="services" class="section"><div class="wrap">
+<div class="center"><div class="eyebrow">What We Do</div><h2>Our Core Services</h2><p class="lead">Practical drone data for assets that are difficult, risky, or time-consuming to inspect from the ground.</p></div>
+<div class="cards">
+<div class="card"><img src="images/thermal-inspection.jpg" alt="Thermal inspection"><div class="cardBody"><h3>Thermal Inspection</h3><p>Detect temperature anomalies in electrical systems, roofs, solar installations, machinery and other assets.</p></div></div>
+<div class="card"><img src="images/thermal-solar.jpg" alt="Solar PV thermal inspection"><div class="cardBody"><h3>Solar PV Inspection</h3><p>Identify potential hotspots, damaged modules and abnormal thermal patterns efficiently.</p></div></div>
+<div class="card"><img src="images/roof-aerial.jpg" alt="Roof aerial inspection"><div class="cardBody"><h3>Roof Inspection</h3><p>Safe, fast and cost-effective visual assessment of roofs and hard-to-access areas.</p></div></div>
+<div class="card"><img src="images/construction-aerial.jpg" alt="Aerial construction survey"><div class="cardBody"><h3>Construction Monitoring</h3><p>Track progress, document work and create repeatable aerial records.</p></div></div>
+<div class="card"><img src="images/hero-aerial.jpg" alt="Survey and mapping"><div class="cardBody"><h3>Survey & Mapping</h3><p>Aerial imagery for site documentation, mapping, planning and visual analysis.</p></div></div>
+<div class="card"><img src="images/aerial-media.jpg" alt="Aerial media"><div class="cardBody"><h3>Aerial Media Services</h3><p>High-quality aerial photos and video for businesses, properties and project presentations.</p></div></div>
+</div></div></section>
+
+<section id="about" class="section soft"><div class="wrap"><div class="split">
+<div><div class="eyebrow">Why Glide Beyond Obvious?</div><h2>Engineering insight from a different perspective.</h2><p class="lead" style="margin:0">We don't just capture images. We help you see conditions that can be difficult to identify during a conventional visual inspection.</p>
+<div class="checks">
+<div class="check"><div class="icon">⚡</div><div><strong>Engineering Perspective</strong><span>Electrical engineering background helps put inspection findings into practical context.</span></div></div>
+<div class="check"><div class="icon">◉</div><div><strong>Advanced Thermal Technology</strong><span>Thermal imaging can reveal temperature differences that ordinary cameras cannot.</span></div></div>
+<div class="check"><div class="icon">✓</div><div><strong>Safety & Efficiency</strong><span>Reduce the need for climbing, prolonged access and unnecessary exposure to hazards.</span></div></div>
+<div class="check"><div class="icon">▣</div><div><strong>Actionable Deliverables</strong><span>Organized imagery and findings designed to support maintenance and decision-making.</span></div></div>
+</div></div>
+<div class="dual"><div><img src="images/solar-rgb.jpg" alt="RGB view of solar panels"><label>RGB IMAGE</label></div><div><img src="images/thermal-solar.jpg" alt="Thermal view of solar panels"><label>THERMAL IMAGE</label></div></div>
+</div></div></section>
+
+<section id="industries" class="section dark"><div class="wrap"><div class="center"><div class="eyebrow" style="color:#8ee33b">Applications</div><h2>Industries We Serve</h2><p style="color:#b8c8c0">Flexible aerial data collection for commercial, industrial and infrastructure applications.</p></div>
+<div class="industries"><div class="industry"><b>⚡</b>Power Utilities</div><div class="industry"><b>☀</b>Solar Farms</div><div class="industry"><b>▥</b>Industrial Facilities</div><div class="industry"><b>▦</b>Commercial Buildings</div><div class="industry"><b>⚒</b>Construction</div><div class="industry"><b>⌂</b>Real Estate</div><div class="industry"><b>♧</b>Agriculture</div><div class="industry"><b>⌁</b>Infrastructure</div></div></div></section>
+
+<section class="section"><div class="wrap"><div class="center"><div class="eyebrow">How It Works</div><h2>Our Inspection Process</h2></div>
+<div class="steps"><div class="step"><div class="num">1</div><h4>Consultation</h4><p>Discuss your needs, asset and project scope.</p></div><div class="step"><div class="num">2</div><h4>Planning</h4><p>Plan the mission and inspection area.</p></div><div class="step"><div class="num">3</div><h4>Flight</h4><p>Capture high-quality aerial and thermal data.</p></div><div class="step"><div class="num">4</div><h4>Analysis</h4><p>Process and review the collected data.</p></div><div class="step"><div class="num">5</div><h4>Report Delivery</h4><p>Receive organized findings and imagery.</p></div></div>
+</div></section>
+
+<section id="portfolio" class="section soft"><div class="wrap"><div class="center"><div class="eyebrow">Our Work</div><h2>Sample Projects</h2><p class="lead">A selection of aerial and thermal imagery captured using our equipment.</p></div>
+<div class="gallery">
+<a href="images/thermal-inspection.jpg" target="_blank"><img src="images/thermal-inspection.jpg" alt="Thermal inspection"><span class="tag">SOLAR PV THERMAL INSPECTION</span></a>
+<a href="images/roof-aerial.jpg" target="_blank"><img src="images/roof-aerial.jpg" alt="Solar roof aerial image"><span class="tag">ROOF / SOLAR INSPECTION</span></a>
+<a href="images/construction-aerial.jpg" target="_blank"><img src="images/construction-aerial.jpg" alt="Aerial site image"><span class="tag">AERIAL SURVEY</span></a>
+<a href="images/hero-aerial.jpg" target="_blank"><img src="images/hero-aerial.jpg" alt="Aerial facility image"><span class="tag">FACILITY DOCUMENTATION</span></a>
+<a href="images/drone.jpg" target="_blank"><img src="images/drone.jpg" alt="DJI Mavic 3 Enterprise"><span class="tag">DJI MAVIC 3 ENTERPRISE</span></a>
+<a href="images/thermal-solar.jpg" target="_blank"><img src="images/thermal-solar.jpg" alt="Thermal panel image"><span class="tag">THERMAL IMAGING</span></a>
+</div></div></section>
+
+<section class="cta" id="contact"><div class="wrap"><div class="ctaGrid"><div><h2>READY TO SEE<br><b>BEYOND THE OBVIOUS?</b></h2><p>Let's discuss how aerial and thermal inspection can help you make better decisions.</p></div><a class="btn green" href="mailto:glidebeyondobvious@gmail.com?subject=Request%20a%20Quote">Request a Quote ↗</a></div></div></section>
+
+<footer><div class="wrap"><div class="footGrid">
+<div><a class="brand" href="#home"><img src="images/logo.png" alt="GBO logo"><span>GLIDE<small>BEYOND OBVIOUS</small></span></a><p>Professional drone thermal inspection and aerial survey services delivering actionable insights for critical assets.</p></div>
+<div><h3>Quick Links</h3><ul><li><a href="#home">Home</a></li><li><a href="#services">Services</a></li><li><a href="#portfolio">Portfolio</a></li><li><a href="#industries">Industries</a></li><li><a href="#about">About</a></li><li><a href="#contact">Contact</a></li></ul></div>
+<div><h3>Services</h3><ul><li>Thermal Inspection</li><li>Solar PV Inspection</li><li>Roof Inspection</li><li>Construction Monitoring</li><li>Survey & Mapping</li><li>Aerial Media</li></ul></div>
+<div><h3>Contact Us</h3><p>📍 Apple St., Villa Candida Subdivision,<br>Bulua, Cagayan de Oro City</p><p>☎ <a href="tel:+639067886503">+63 906 788 6503</a></p><p>✉ <a href="mailto:glidebeyondobvious@gmail.com">glidebeyondobvious@gmail.com</a></p></div>
+</div><div class="copyright">© 2026 Glide Beyond Obvious. All Rights Reserved.</div></div></footer>
+</body></html>
